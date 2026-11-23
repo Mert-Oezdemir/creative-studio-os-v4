@@ -8,6 +8,7 @@ Requires Blender; this draft has not been tested inside Blender in this release.
 """
 import bpy
 import math
+from mathutils import Vector
 
 STYLES = {
     "LUX": {"color": (0.48, 0.42, 0.33, 1), "metallic": 0.92, "roughness": 0.12},
@@ -65,7 +66,7 @@ def build():
 
     bpy.ops.object.camera_add(location=(9, -17, 9))
     camera = bpy.context.object
-    direction = (0, 0, 1.1) - camera.location
+    direction = Vector((0, 0, 1.1)) - camera.location
     camera.rotation_euler = direction.to_track_quat("-Z", "Y").to_euler()
     bpy.context.scene.camera = camera
     bpy.context.scene.render.resolution_x = 1600
