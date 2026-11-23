@@ -1,0 +1,58 @@
+{
+  "styles": {
+    "LUX": {
+      "name": "Dark Luxury",
+      "colors": {
+        "background": "#0D0D10",
+        "primary": "#B78C58",
+        "foreground": "#F1E9DD"
+      },
+      "materials": [
+        "chrome",
+        "smoked-glass",
+        "obsidian"
+      ],
+      "motion": "slow-orbital"
+    },
+    "MIN": {
+      "name": "Modern Minimal",
+      "colors": {
+        "background": "#F6F7F8",
+        "primary": "#4873E8",
+        "foreground": "#111827"
+      },
+      "materials": [
+        "ceramic",
+        "frosted-acrylic"
+      ],
+      "motion": "subtle-ease"
+    },
+    "FUT": {
+      "name": "Futuristic Digital",
+      "colors": {
+        "background": "#080A1B",
+        "primary": "#65E5FF",
+        "foreground": "#9277FF"
+      },
+      "materials": [
+        "holographic-glass",
+        "iridescent"
+      ],
+      "motion": "reactive-loop"
+    },
+    "EDI": {
+      "name": "Editorial Cinematic",
+      "colors": {
+        "background": "#EEE6D9",
+        "primary": "#C76E4A",
+        "foreground": "#262424"
+      },
+      "materials": [
+        "paper",
+        "plaster",
+        "grain"
+      ],
+      "motion": "editorial-cut"
+    }
+  }
+}
